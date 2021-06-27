@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Chela One', cursive;
+    font-size: 1.1rem;
+}
+body {
+    margin:0; padding:0;
+    background-color: #ffe8c6;
+}
+#modal {
+    display: none;
+}
+#outer {
+    display: none;
+}
+.outer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+ 
+}
+.menu {
+    position: absolute;
+   
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu .input {
+    width: 200px;
+    border-bottom: 2.5px solid black;
+}
+.menu .input input {
+    background-color: #ffe8c6;
+    border: none;
+}
+.menu .input input:focus {
+    outline: none;
+}
+.menu .btnModal {
+    border: none;
+    background-color: #001B2E;
+     width: 200px;
+    padding: 2.5em;
+    
+    
+  
+    color: white;  
+    transition-property: 'background-color';
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+  
+}
+.menu .btnModal:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+.test {
+ width: 50%;
+ height: auto;
+ position: fixed;
+ top: -20%;
+ opacity: 0;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #001B2E;
+ animation: test 0.3s 0s forwards ease-out;
+ padding: 1em 2em 2em 2em;
+ z-index: 101;
+ 
+}
+.test .form {
+color: white;
+   }
+.form .header {
+    display: flex;
+}
+.form .header h1 {
+      width: 40%;
+      font-size: 1.5rem;
+}
+   .test .form .soal  {
+       margin-top: 0;
+   }
+.test .form .soal .optionQ1, .optionQ2, .optionQ3 {
+    color: black;
+    padding: 1em;
+    background-color:  white;
+    margin-bottom: 0.5em;
+}
+.test .form .soal fieldset {
+    margin-bottom: 0.5em;
+     border: none;
+    position: relative;
+    top: -30px;
+}
+.test .form .soal fieldset button {
+    cursor: pointer;
+    padding: 1em;
+    margin-top: 0.5em;
+    position: relative;
+    width: 95%;
+    top: -20px;
+    transition-property: 'padding background-color';
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    background-color: white;
+}
+.test .form .soal fieldset button:hover {
+  padding: 1.15em;
+  background-color: #dadada;
+}  
+.test .form .soal fieldset legend p {
+    font-size: 1.5rem;
+}
+.test .form .soal fieldset legend p:nth-child(1) {
+    font-size: 1.5rem;
+    position: relative;
+    top: 20px;
+}
+.test .form .soal fieldset button {
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 1.2rem;
+}
+.test .form .soal fieldset button:disabled {
+    color: black;
+}
+.test .form .soal {
+    height: 300px;
+    
+}
+.test .form #submitBtn {
+    border: none;
+    padding: 0.5em;
+    margin-top: 1em;
+    background-color: #ff9533;
+    color: black;
+    width: 100px;
+}
+.test .form #submitBtn:hover {
+    background-color: #cf7a2a;
+    color: black;
+   cursor: pointer;
+}
+.test .form input {
+    margin-bottom: 1em;
+}
+@keyframes test {
+    from {
+        top: -20%;
+        opacity: 0;
+    }to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+#outerHasil {
+ display: none;
+}
+.outerHasil {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 2em;
+    background-color: #ffe8c6;
+}
+.outerHasil .hasil {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="outer" id="outer">
+    <div id="modal" class="test">
+       <div class="form">
+           <div class="header">
+           <h1>M a t h</h1">
+           <h1 id ="timesLimit"></h1>
+           </div>
+         
+            <!-- <label for="nama">name</label><br>
+            <input id="nama" name="nama"><br> -->
+            <!-- <label for="address">address</label><br>
+            <input id="address" name="address"><br> -->
+            <section style="margin: 1.15em 0em;" data-scrollbar>
+            <div id = "demo" class="soal">
+            <!-- <fieldset>
+              <legend>1 + 1 = ?</legend>
+              <button class="optionQ1">1</button>
+              <button class="optionQ1">2</button>
+            </fieldset>
+            <fieldset>
+                <legend>2 + 2 = ?</legend>
+                <button class="optionQ2">2</button>
+                <button class="optionQ2">4</button>
+            </fieldset>
+            <fieldset>
+                <legend>10 + 5 = ?</legend>
+                <button class="optionQ3">15</button>
+                <button class="optionQ3">12</button>
+            </fieldset> -->
+            </div>
+            </section>
+            <button id="submitBtn" type="submit">Submit</button>
+             
+        </div>
+    </div>
+</div>
+<div class="outerHasil" id="outerHasil">
+    <a id="hasilNama" class="hasil"></a><br><br>
+    <a id="hasil" class="hasil"></a>
+</div>
+<div class="menu">
+    <div class="input"><input id="name" placeholder="whats your name?"></div>
+    <button id="openModal" class="btnModal">Start quiz</button>
+</div>
+ <script type="text/javascript" src="quiz.js"></script>   
+ <script src="node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+ <script>
+     var Scrollbar = window.Scrollbar;
+     var options = {
+        alwaysShowTracks: true,
+        damping: 0.3,
+        
+     }
+     Scrollbar.initAll(options);
+ </script>
+</body>
+</html>
