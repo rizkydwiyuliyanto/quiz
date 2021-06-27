@@ -152,7 +152,7 @@ btnModal.onclick = () =>{
     
 var countDownto = new Date();
 var b = new Date();
-countDownto.setMinutes(countDownto.getMinutes()+1);
+countDownto.setMinutes(countDownto.getMinutes()+20);
 var timesLimit = countDownto.getTime()
 rr = setInterval(start2, 1000)
  
