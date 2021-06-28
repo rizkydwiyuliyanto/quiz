@@ -1,7 +1,9 @@
 const btnModal = document.querySelector("#openModal");
 const btnSubmit = document.getElementById("submitBtn");
 const times = document.getElementById("timesLimit");
-const menu = document.querySelector(".menu")
+const menu = document.querySelector(".menu");
+const name = document.getElementById("hasilNama");
+const userName = document.getElementById("name")
 const elemnt = ["div"];
 var scores = [];
 var periksa = [];
@@ -137,7 +139,7 @@ scores.push(0)
     function sum(total, num){
         return total + num;
     }
-    // hasilNama.innerHTML = nama.value;
+    name.innerHTML = userName.value;
     hasil.innerHTML = "Your scores: "+ scores.reduce(sum);
     document.getElementById("outer").style.display = "none";
     document.getElementById("outerHasil").style.display = "block";
