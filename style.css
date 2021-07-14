@@ -109,7 +109,7 @@ color: white;
     position: relative;
     width: 95%;
     top: -20px;
-    transition-property: 'padding background-color';
+    transition-property: 'padding';
     transition-timing-function: linear;
     transition-duration: 0.2s;
     background-color: white;
