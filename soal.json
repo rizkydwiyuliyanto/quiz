@@ -1,0 +1,126 @@
+{
+    "Math" : [
+        {
+            "questionId":"q1",
+            "question":"1+1 = ?",
+            "options":[
+              "2",
+              "4",
+              "6"
+            ],
+            "name":"optionQ1",
+            "answer":"2",
+            "score":30
+          },
+          {
+            "questionId":"q2",
+            "question":"2+2 = ?",
+            "options":[
+              "2",
+              "4",
+              "7"
+            ],
+            "name":"optionQ2",
+            "answer":"4",
+            "score":30
+          },
+          {
+            "questionId":"q3",
+            "question":"10+5 = ?",
+            "options":[
+              "15",
+              "12",
+              "20"
+            ],
+            "name":"optionQ3",
+            "answer":"15",
+            "score":20
+          },
+          {
+            "questionId":"q4",
+            "question":"20+5 = ?",
+            "options":[
+              "25",
+              "52",
+              "55"
+            ],
+            "name":"optionQ4",
+            "answer":"25",
+            "score":10
+          },
+          {
+            "questionId":"q5",
+            "question":"45+5 = ?",
+            "options":[
+              "50",
+              "52",
+              "33"
+            ],
+            "name":"optionQ5",
+            "answer":"50",
+            "score":5
+          }
+    ],
+    "Logic" : [
+        {
+            "questionId":"q1",
+            "question":"1+1 = ?",
+            "options":[
+              "2",
+              "4",
+              "6"
+            ],
+            "name":"optionQ1",
+            "answer":"2",
+            "score":30
+          },
+          {
+            "questionId":"q2",
+            "question":"2+2 = ?",
+            "options":[
+              "2",
+              "4",
+              "7"
+            ],
+            "name":"optionQ2",
+            "answer":"4",
+            "score":30
+          },
+          {
+            "questionId":"q3",
+            "question":"10+5 = ?",
+            "options":[
+              "15",
+              "12",
+              "20"
+            ],
+            "name":"optionQ3",
+            "answer":"15",
+            "score":20
+          },
+          {
+            "questionId":"q4",
+            "question":"20+5 = ?",
+            "options":[
+              "25",
+              "52",
+              "55"
+            ],
+            "name":"optionQ4",
+            "answer":"25",
+            "score":10
+          },
+          {
+            "questionId":"q5",
+            "question":"45+5 = ?",
+            "options":[
+              "50",
+              "52",
+              "33"
+            ],
+            "name":"optionQ5",
+            "answer":"50",
+            "score":5
+          }
+    ]
+}
