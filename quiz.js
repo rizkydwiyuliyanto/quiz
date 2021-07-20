@@ -10,7 +10,9 @@ xmlhttp.onload = function() {
             document.getElementById("modal").style.display = "block";
             
            let subject = e.currentTarget.dataset.subject;
-            subName.innerHTML = subject;
+           
+           console.log(subject.split("").join(" ")); 
+           subName.innerHTML = subject.split("").join(" ");
            let soal = myObj[subject];
         //    console.log(soal)
            displaySubject(soal);
