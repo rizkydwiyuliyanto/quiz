@@ -9,11 +9,17 @@
 </head>
 <body>
 
-<div class="outer" id="outer">
+<div id="subject" class="subjects">
+    <button data-subject="Math" class="child"><p>Math</p></button>
+    <button data-subject="Logic" class="child"><p>Logic</p></button>
+    <!-- <button data-subject="math" class="child"><p>Math</p></button>
+    <button data-subject="math" class="child"><p>Math</p></button> -->
+</div>
+ 
     <div id="modal" class="test">
        <div class="form">
            <div class="header">
-           <h1>M a t h</h1">
+           <h1 id="subject-name"></h1">
            <h1 id ="timesLimit"></h1>
            </div>
             <section style="margin: 1.15em 0em;" data-scrollbar>
@@ -24,7 +30,7 @@
              
         </div>
     </div>
-</div>
+ 
 <div class="outerHasil" id="outerHasil">
     <a id="hasilNama" class="hasil"></a><br><br>
     <a id="hasil" class="hasil"></a>

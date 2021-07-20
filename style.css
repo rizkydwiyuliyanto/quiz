@@ -11,9 +11,28 @@ body {
 #modal {
     display: none;
 }
-#outer {
-    display: none;
-}
+ #subject {
+     display: none;
+ }
+ .subjects {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    grid-template-columns:  auto auto;
+    grid-gap: 10px;
+ }
+ .subjects > .child {
+     padding: 20px 0;
+     text-align: center;
+     background-color: rgb(190, 175, 153);
+     border: none;
+ }
+ .subjects > .child:hover {
+    background-color: red;
+ }
 .outer {
     position: fixed;
     width: 100%;
@@ -49,9 +68,6 @@ body {
     background-color: #001B2E;
      width: 200px;
     padding: 2.5em;
-    
-    
-  
     color: white;  
     transition-property: 'background-color';
     transition-timing-function: ease;

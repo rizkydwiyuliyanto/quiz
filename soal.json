@@ -64,62 +64,62 @@
     "Logic" : [
         {
             "questionId":"q1",
-            "question":"1+1 = ?",
+            "question":"Semua mahasiswa Perguruan Tinggi memiliki Nomor Induk Mahasiswa. Budi seorang mahasiswa. Jadi,",
             "options":[
-              "2",
-              "4",
-              "6"
+              "Belum tentu Budi memiliki nomor induk mahasiswa2",
+              "Budi memiliki nomor induk mahasiswa",
+              "Budi tidak memiliki nomor induk mahasiswa"
             ],
             "name":"optionQ1",
-            "answer":"2",
+            "answer":"Budi memiliki nomor induk mahasiswa",
             "score":30
           },
           {
             "questionId":"q2",
-            "question":"2+2 = ?",
+            "question":" Sebagian pedagang pecel lele mengeluhkan harga cabe naik. Pak Rudi seorang pedagang pecel lele.",
             "options":[
-              "2",
-              "4",
-              "7"
+              "Harga cabe bukanlah keluhan Pak Rudi",
+              "Harga cabe naik atau tidak, pak Rudi tetap mengeluh",
+              "Pak Rudi mungkin ikut mengeluhkan harga cabe naik"
             ],
             "name":"optionQ2",
-            "answer":"4",
+            "answer":"Pak Rudi mungkin ikut mengeluhkan harga cabe naik",
             "score":30
           },
           {
             "questionId":"q3",
-            "question":"10+5 = ?",
+            "question":"Semua pemain sepakbola yang berkebangsaan Itali berwajah tampan. David Beckham adalah pemain sepakbola berkebangsaan Inggris.",
             "options":[
-              "15",
-              "12",
-              "20"
+              "Tidak dapat ditarik kesimpulan",
+              "Meskipun bukan berkebangsaan Italia, David Beckham pasti berwajah tampan",
+              "David Beckham adalah pemain sepakbola yang tampan"
             ],
             "name":"optionQ3",
-            "answer":"15",
+            "answer":"Tidak dapat ditarik kesimpulan",
             "score":20
           },
           {
             "questionId":"q4",
-            "question":"20+5 = ?",
+            "question":" Sebagian orang yang berminat menjadi pejabat hanya menginginkan harta dan tahta. Budi tidak berminat menjadi pejabat.",
             "options":[
-              "25",
-              "52",
-              "55"
+              "Tidak dapat ditarik kesimpulan",
+              "Budi tidak ingin menjadi pejabat karena sudah kaya dan punya tahta",
+              "Budi tidak menginginkan harta dan tahta."
             ],
             "name":"optionQ4",
-            "answer":"25",
+            "answer":"Tidak dapat ditarik kesimpulan",
             "score":10
           },
           {
             "questionId":"q5",
-            "question":"45+5 = ?",
+            "question":"Coklat yang dibungkus dalam kemasan menarik sangat laris terjual. Coklat Jago dibungkus dalam kemasan berwarna merah menyala. Menurut anak-anak, warna merah menyala sangatlah menarik.",
             "options":[
-              "50",
-              "52",
-              "33"
+              "Coklat Jago laris terjual di kalangan anak-anak",
+              "Coklat Jago laris terjual",
+              "Tidak dapat ditarik kesimpulan"
             ],
             "name":"optionQ5",
-            "answer":"50",
+            "answer":"Coklat Jago laris terjual di kalangan anak-anak",
             "score":5
           }
     ]
